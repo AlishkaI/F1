@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F1 Dashboard</title>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+
+    background-image: 
+        url('images/background2.jpg'), 
+        url('images/background.jpg'),  
+        url('images/background3.jpg'); 
+
+    background-position: 
+        left center,   
+        center center, 
+        right center; 
+
+    background-repeat: no-repeat;
+    background-size: contain, contain, contain;
+}
+
+
+
+
+
+.main-box {
+    background-color: rgba(0,0,0,0.7); /* полупрозрачный черный фон */
+    padding: 40px 60px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.76);
+}
+
+
+.center-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.center-button:hover {
+    background-color: darkred;
+}
+
+/* Нижний бар с контактами */
+.bottom-bar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.747);
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.bottom-bar a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<div class="main-box">
+    <h1>F1 Track Dashboard</h1>
+    <a class="center-button" href="races.html">Перейти к календарю гонок</a>
+</div>
+
+<div class="bottom-bar">
+    <a href="https://www.linkedin.com/in/urazbaev-ali-1b7596292/" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/AlishkaI" target="_blank">GitHub</a> |
+    <a href="aliurazbayev09@gmail.com">Email</a>
+</div>
+
+</body>
+</html>
